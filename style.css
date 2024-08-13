@@ -10,7 +10,9 @@
 }
 
 body{
+    scroll-behavior: smooth;
     font-family: "Montserrat", sans-serif;
+    transition: .2s;
 }
 
 span{
@@ -59,7 +61,7 @@ img{
     font-weight: 600;
     font-size: 18px;
     color: rgb(255, 255, 255);
-    background: linear-gradient(rgb(251, 162, 79),rgb(255, 30, 30));
+    background: linear-gradient(to left, rgb(251, 162, 79),rgb(255, 30, 30));
 }
 .btn:hover{
     width: 550px;
@@ -109,4 +111,91 @@ main{
     margin-bottom: 2rem;
     
 
+}
+
+.recipies-title{
+    width: 706px;
+    height: 159px;
+    margin: auto;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.recipies-title h1{
+    width: 529px;
+    height: 60px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: .1rem;
+    font-weight: 600;
+    font-size: 36px;
+    background: linear-gradient(to left, rgb(251, 162, 79),rgb(255, 30, 30));
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+
+}
+
+
+.recipies-content{
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    align-items: center;
+}
+.recipies-card{
+    width: 610px;
+    height: 562px;
+    padding: 2rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px 2px rgb(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+.recipies-card img{
+    width: 550px;
+    height: 308px;
+}
+.recipies-card h1{
+    font-size: 28px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.reating-card{
+    width:1239px;
+    height: 206px;
+    margin: auto;
+    padding: 0 auto 0;
+    margin-top: 5rem;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    column-gap: 5rem;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 6px 6px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    height: 256px;
+    margin-top: 3rem;
+    background-color: black;
+}
+
+.footer-content{
+    padding-top: 4rem;
+    align-items: center;
+    text-align: center;
+}
+.footer-content h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(91, 91, 91);
+}
+.footer-content p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
 }
